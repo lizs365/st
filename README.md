@@ -17,6 +17,8 @@ You can also replace `https://lizs365.github.io/st/st.js` with one of the follow
 
 ## st.js Functions
 - `log(x)` - Logs `x` to the console.
+- `timeS(x)` - Starts a timer, `x` is the name of the timer to log to the console.
+- `timeE(x)` - Stops a timer that was previously started by calling timeS().
 - `getParam(x)` - Returns the URL GET parameter `x`, if it exists.
 - `calc(x)` - Returns the answer to math equation `x`.
 - `goUrl(x)` - Redirects the user to `x`, simulating a link click.
