@@ -2,6 +2,14 @@ function log(x) {
   console.log(x);
 }
 
+function timeS(x) {
+  console.time(x);
+}
+
+function timeE(x) {
+  console.timeEnd(x);
+}
+
 function getParam(x) {
   var url_string = window.location.href;
   var url = new URL(url_string);
